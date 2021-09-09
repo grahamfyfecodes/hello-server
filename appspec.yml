@@ -8,4 +8,4 @@ files:
 hooks:
   ApplicationStart:
     - location: start.sh
-      runas: ubuntu
+      runas: ec2-user
