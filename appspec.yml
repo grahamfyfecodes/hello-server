@@ -5,3 +5,7 @@ files:
     destination: /tmp
   - source: /start.sh
     destination: /tmp/scripts
+hooks:
+  ApplicationStart:
+    - location: start.sh
+      runas: ubuntu
